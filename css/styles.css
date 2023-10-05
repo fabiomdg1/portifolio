@@ -57,6 +57,20 @@ header #navbar .nav-list .nav-link a:hover {
   transition: color 0.3s;
 }
 
+header #navbar .hamburg-menu {
+  display: none;
+}
+
+@media (max-width: 740px) {
+  header #navbar .hamburg-menu {
+    display: block;
+  }
+
+  header #navbar .nav-list {
+    display: none;
+  }
+}
+
 /* SECTION BANNER */
 
 main {
@@ -99,6 +113,18 @@ main #banner .banner-img {
   border-radius: 50%;
   max-width: 250px;
   max-height: 250px;
+}
+
+@media (max-width: 920px) {
+  main #banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  main #banner .banner-content {
+    text-align: center;
+  }
 }
 
 /* SECTION POSTS */
@@ -154,4 +180,10 @@ section#posts {
   font-weight: 480;
   margin-bottom: 24px;
   display: block;
+}
+
+@media (max-width: 740px) {
+  #posts .posts-content .post-cards {
+    flex-direction: column;
+  }
 }
