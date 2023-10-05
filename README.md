@@ -9,3 +9,7 @@
 - HTML5
 - CSS
 - JavaScript
+
+## Resultado
+- O site foi hospedado e pode ser visualizado no link abaixo: <br>
+http://fabiodev.com.br/EstudoHtmlCss/
